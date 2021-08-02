@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+    padding-right: 10px;
+}
+.header p {
+    padding-right: 15px;
+    color: #3a3a3a;
+}
+.header a:hover {
+    background-color: #dbdada;
+    border-radius: 30px;
+}
+.header p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header img {
+    margin: 10px;
+}
+section {
+    height: 500px;
+}
+#geral {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    width: 584px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.search {
+    height: 50px;
+    border: 1px solid #ddd1d1;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.search:hover {
+    box-shadow: 0px 0px 5px 0px rgb(177, 173, 173) /* Borda pega em todas as áreas */
+}
+.search input {
+    width: 447px;
+    height: 34px;
+    border: none;
+    font-size: 15px;
+    outline: 0; /* Tira a borda padrão do navegador quando clica dentro do input */
+}
+.search i {
+    color: #746f6f;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.bottons {
+    display: flex;
+    font-size: 14px;
+    padding: 20px;
+}
+.bottons div {
+    height: 36px;
+    width: 140px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    color: #3a3a3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bottons div:hover {
+    box-shadow: 0px 1px 6px #746f6f;
+    border-radius: 5px;
+}
+.footer1 {
+    height: 48px;
+    border-bottom: 1px solid #dadce0;
+    color: rgba(0,0,0,.54);
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.footer2 {
+    height: 48px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    padding: 12px;
+}
+.footer2 a:hover {
+    text-decoration: underline;
+}
